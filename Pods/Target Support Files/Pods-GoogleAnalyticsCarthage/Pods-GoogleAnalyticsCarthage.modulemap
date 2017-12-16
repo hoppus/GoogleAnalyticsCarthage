@@ -1,0 +1,6 @@
+framework module Pods_GoogleAnalyticsCarthage {
+  umbrella header "Pods-GoogleAnalyticsCarthage-umbrella.h"
+
+  export *
+  module * { export * }
+}
