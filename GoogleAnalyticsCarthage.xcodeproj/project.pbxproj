@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7F7CF7CA1FE57D8900EC8771 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE5F2E51FE56FBF00310302 /* UIKit.framework */; };
-		7F7CF7CC1FE57E7100EC8771 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7CF7CB1FE57E7100EC8771 /* Firebase.h */; };
 		7FE5F2DF1FE56F1800310302 /* GoogleAnalyticsCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE5F2DD1FE56F1800310302 /* GoogleAnalyticsCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C8EF28FC6E94E0DF66B8DEC /* Pods_GoogleAnalyticsCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98F8B703555909CDD3D393 /* Pods_GoogleAnalyticsCarthage.framework */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,7 @@
 /* Begin PBXFileReference section */
 		1B98F8B703555909CDD3D393 /* Pods_GoogleAnalyticsCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAnalyticsCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		614001AF2E40D561346BAC17 /* Pods-GoogleAnalyticsCarthage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAnalyticsCarthage.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleAnalyticsCarthage/Pods-GoogleAnalyticsCarthage.release.xcconfig"; sourceTree = "<group>"; };
-		7F7CF7CB1FE57E7100EC8771 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Pods/Firebase/Core/Sources/Firebase.h; sourceTree = SOURCE_ROOT; };
+		7F7CF7CF1FE580B100EC8771 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		7FE5F2DA1FE56F1800310302 /* GoogleAnalyticsCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAnalyticsCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE5F2DD1FE56F1800310302 /* GoogleAnalyticsCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsCarthage.h; sourceTree = "<group>"; };
 		7FE5F2DE1FE56F1800310302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				7FE5F2DD1FE56F1800310302 /* GoogleAnalyticsCarthage.h */,
-				7F7CF7CB1FE57E7100EC8771 /* Firebase.h */,
+				7F7CF7CF1FE580B100EC8771 /* Firebase.h */,
 				7FE5F2DE1FE56F1800310302 /* Info.plist */,
 			);
 			path = GoogleAnalyticsCarthage;
@@ -91,7 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FE5F2DF1FE56F1800310302 /* GoogleAnalyticsCarthage.h in Headers */,
-				7F7CF7CC1FE57E7100EC8771 /* Firebase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
