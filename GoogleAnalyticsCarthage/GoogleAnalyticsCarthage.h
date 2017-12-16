@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Google/Analytics.h>
 
 //! Project version number for GoogleAnalyticsCarthage.
 FOUNDATION_EXPORT double GoogleAnalyticsCarthageVersionNumber;
